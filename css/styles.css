@@ -1,0 +1,221 @@
+body {
+  background-color: #DBE2EF;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  width: 5%;
+  border-style: dotted none none;
+  border-width: 7px;
+  border-color: #3F72AF;
+}
+
+h1 {
+  font-size: 5em;
+  margin: 50px auto 0 auto;
+  color: #112D4E;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #112D4E;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #112D4E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  background-color: #112D4E;
+  position: sticky;
+  width: 100%;
+  height: 7%;
+  top: 0;
+}
+
+.top-cointainer {
+  text-align: center;
+}
+
+.middle-container{
+  text-align: center;
+}
+
+.logo {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  left: 40px;
+}
+
+.cloud {
+  position: absolute;
+  left: 600px;
+  z-index: -1;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 550px;
+  top: 400px;
+  z-index: -1;
+}
+
+.mountain {
+  position: absolute;
+}
+
+.Bootstrap{
+  width: 64px;
+  height: 64px;
+}
+
+.button:hover {
+  background-color:#DBE2EF;
+  transition: 0.7s;
+}
+
+.button {
+   padding: 8px 12px;
+   border: 1px solid #112D4E;
+   background-color: #112D4E;
+   border-radius: 2px;
+   font-size: 14px;
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   display: inline-block;
+}
+
+.language-spanish{
+  border-radius: 6px;
+  padding: 8px 12px;
+  border: 1px solid #DBE2EF;
+  background-color: #112D4E;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  left: 200px;
+  top: 20px;
+}
+
+.language-spanish:hover {
+      background-color:#DBE2EF;
+      transition: 0.7s;
+  }
+
+.language-english{
+  border-radius: 6px;
+  padding: 8px 12px;
+  border: 1px solid #DBE2EF;
+  background-color: #112D4E;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  left: 300px;
+  top: 20px;
+}
+
+.language-english:hover {
+      background-color:#DBE2EF;
+      transition: 0.7s;
+  }
+
+.LinkedIn {
+   padding: 8px 12px;
+   border: 1px solid #DBE2EF;
+   background-color: #112D4E;
+   border-radius: 2px;
+   font-size: 14px;
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   display: inline-block;
+   position: absolute;
+   right: 80px;
+   top: 20px;
+}
+
+.LinkedIn:hover {
+      background-color:#DBE2EF;
+      transition: 0.7s;
+  }
+
+
+.Twitter {
+   padding: 8px 12px;
+   border: 1px solid #DBE2EF;
+   background-color: #112D4E;
+   border-radius: 2px;
+   font-size: 14px;
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   display: inline-block;
+   position: absolute;
+   right: 200px;
+   top: 20px;
+}
+
+.Twitter:hover {
+      background-color:#DBE2EF;
+      transition: 0.7s;
+  }
+
+
+.Github {
+   padding: 8px 12px;
+   border: 1px solid #DBE2EF;
+   background-color: #112D4E;
+   border-radius: 2px;
+   font-size: 14px;
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   display: inline-block;
+   position: absolute;
+   right: 320px;
+   top: 20px;
+}
+
+.Github:hover {
+      background-color:#DBE2EF;
+      transition: 0.7s;
+  }
+
+.skill-row{
+  width: 10%;
+  padding: 10px;
+
+}
+
+.skills{
+  margin-left: 25%;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-container{
+  background-color: #112D4E;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  font-size: 14px;
+  color: white;
+}
+
+
+
+/* check hover pseudo class*/
